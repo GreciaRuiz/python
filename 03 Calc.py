@@ -20,7 +20,10 @@ def mult(a,b):
 	return a*b
 
 def div(a,b):
-	return a/b
+	if b != 0:
+		print("El resultado de la división es: ",a/b,"\n")
+	else:
+		print("NO SE PUEDE DIVIDIR ENTRE CERO \n")
 
 os.system("cls")
 os.system("Title CALCULADORA")
@@ -63,11 +66,11 @@ while True:
 		print("		DIVISIÓN	\n")
 		a = int(input("Ingrese el primer nro: "))
 		b = int(input("Ingrese el segundo nro: "))
-		print("El resultado de la división es: ",div(a,b),"\n")
+		div(a,b)
 		os.system("pause")
 		os.system("cls")
 	elif(op>=5):
 		os.system("cls")
 os.system("cls")
-print("\nCerrado Calculadora v1.0\n")
+print("\nCerrado Calculadora v1.1\n")
 os.system("pause")
