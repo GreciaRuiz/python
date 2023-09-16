@@ -72,5 +72,5 @@ while True:
 	elif(op>=5):
 		os.system("cls")
 os.system("cls")
-print("\nCerrado Calculadora v1.0\n")
+print("\nCerrado Calculadora v1.1\n")
 os.system("pause")
