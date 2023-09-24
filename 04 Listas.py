@@ -28,7 +28,7 @@ os.system("cls")
 os.system("Title LISTORTI V1.1")
 lista=[]
 while True:
-	os.system("Color 3a")
+	os.system("Color 1F")
 	menu()
 	op = int(input("	Ingrese una opción: "))
 	if op == 0:
