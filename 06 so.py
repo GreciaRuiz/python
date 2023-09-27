@@ -5,10 +5,10 @@ so = os.name
 plataforma = sys.platform;
 if so == "nt":
     print("Tiene un SO Windows")
-elif so == "posix" and plataforma == "darwin":    
+elif so == "posix" and plataforma == "linux":    
     print("Tiene un SO Linux")
 else:
-    print("Tiene un SO MAC")
+    print(plataforma)
 
 
 input()
